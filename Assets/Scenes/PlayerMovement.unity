@@ -14,10 +14,10 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 10
-  m_Fog: 0
-  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_Fog: 1
+  m_FogColor: {r: 0.005339978, g: 0.014128782, b: 0.0754717, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.01
+  m_FogDensity: 0.05
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
@@ -1218,7 +1218,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 2
-  far clip plane: 200
+  far clip plane: 500
   field of view: 59.999996
   orthographic: 0
   orthographic size: 5
@@ -1246,7 +1246,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0.53729963, z: 0.8433915, w: 0}
-  m_LocalPosition: {x: -0.31686, y: 6.0704284, z: -4.642188}
+  m_LocalPosition: {x: -0.31686, y: 5.6845593, z: -5.4696865}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3833,8 +3833,8 @@ Transform:
   m_GameObject: {fileID: 1135308061}
   serializedVersion: 2
   m_LocalRotation: {x: -0.50943476, y: -0, z: -0, w: 0.86050934}
-  m_LocalPosition: {x: -9, y: -100.2, z: 81}
-  m_LocalScale: {x: 21.437653, y: 21.437653, z: 31.163914}
+  m_LocalPosition: {x: -9, y: -217.8, z: 7.8}
+  m_LocalScale: {x: 38.489162, y: 38.489162, z: 64.7417}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -6726,7 +6726,7 @@ MonoBehaviour:
     FieldOfView: 60
     OrthographicSize: 5
     NearClipPlane: 2
-    FarClipPlane: 200
+    FarClipPlane: 500
     Dutch: 0
     ModeOverride: 0
     PhysicalProperties:
@@ -6776,7 +6776,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachineGroupFraming
   FramingMode: 2
   FramingSize: 1.15
-  CenterOffset: {x: 0, y: -0.29}
+  CenterOffset: {x: 0, y: -0.5}
   Damping: 2
   SizeAdjustment: 2
   LateralAdjustment: 0
@@ -7021,6 +7021,10 @@ PrefabInstance:
       propertyPath: m_DefaultActionMap
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 7117231444789236304, guid: d3b431f0cad537347b9d90be577aba49, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 07fc9e0ab7c539448acaeec9eaad6709, type: 2}
     - target: {fileID: 7861465522454733784, guid: d3b431f0cad537347b9d90be577aba49, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
