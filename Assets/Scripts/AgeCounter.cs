@@ -2,29 +2,37 @@ using System;
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AgeCounter : MonoBehaviour
 {
+    [Header("References")]
     [SerializeField] private TextMeshProUGUI timerTxt;
     [SerializeField] private PlayerCollision playerCollision;
 
-    [SerializeField] private  float countInterval = 1f;
-    [SerializeField, Range(1,99)] private int ageCount;
-    
-    
+    [Header("Counter Settings")]
+    [SerializeField] private float countInterval = 1f;
+
     private int currentCount = 0;
-    
+    private int targetAge;
+
     public Action onPlayerDie;
 
     private void Start()
     {
+        targetAge = AgeManager.PlayerAge;
+
+        if (targetAge <= 0)
+        {
+            Debug.LogWarning("No valid player age found in AgeManager. Defaulting to 10.");
+            targetAge = 10;
+        }
+
+        if (timerTxt != null)
+        {
+            timerTxt.text = "";
+        }
         StartCoroutine(CounterRoutine());
-
-        // if (AgeManager == null)
-        // {
-        //     ageCount = AgeManager.PlayerAge;
-        // }
-
     }
 
     private void OnEnable()
@@ -33,15 +41,16 @@ public class AgeCounter : MonoBehaviour
         {
             playerCollision = FindAnyObjectByType<PlayerCollision>();
         }
-        
-        onPlayerDie += playerCollision.OnKill;
+
+        if (playerCollision)
+            onPlayerDie += playerCollision.OnKill;
     }
 
     private void OnDisable()
     {
-        onPlayerDie -= playerCollision.OnKill;
+        if (playerCollision)
+            onPlayerDie -= playerCollision.OnKill;
     }
-
 
     private IEnumerator CounterRoutine()
     {
@@ -52,16 +61,22 @@ public class AgeCounter : MonoBehaviour
             currentCount++;
             Debug.Log("Counter: " + currentCount);
 
-            timerTxt.text = currentCount.ToString();
-            
-            if (currentCount >= ageCount)
+            if (timerTxt)
+                timerTxt.text = currentCount.ToString();
+
+            if (currentCount >= targetAge)
             {
+                Debug.Log("Counter reached player age. Death and scene switch.");
                 onPlayerDie?.Invoke();
+                Die();
                 yield break;
             }
         }
     }
-    
-    
-    
+
+    private void Die()
+    {
+        // some delay or animation of death?
+        SceneManager.LoadScene("3_EndScene_Test");
+    }
 }
