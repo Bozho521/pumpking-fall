@@ -516,6 +516,7 @@ GameObject:
   - component: {fileID: 3670470012203354011}
   - component: {fileID: 6155286290349615826}
   - component: {fileID: 7517933500172936225}
+  - component: {fileID: 3207398803351994709}
   m_Layer: 0
   m_Name: PlayerGO
   m_TagString: Untagged
@@ -639,6 +640,22 @@ MonoBehaviour:
   idleOscillationSpeed: 2
   idleThreshold: 0.15
   idleBlendSpeed: 6
+--- !u!114 &3207398803351994709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4356457161783000206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 395acd28227d4a6428fadbcd4bcb6f4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerCollision
+  deathLayers:
+    serializedVersion: 2
+    m_Bits: 64
+  playerGraphics: {fileID: 4643858724754449985}
 --- !u!1 &4643858724754449985
 GameObject:
   m_ObjectHideFlags: 0

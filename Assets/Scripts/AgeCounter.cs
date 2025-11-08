@@ -1,18 +1,49 @@
+using System;
+using System.Collections;
+using TMPro;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class AgeCounter : MonoBehaviour
 {
-    public float countInterval = 1f;
+    [SerializeField] private TextMeshProUGUI timerTxt;
+    [SerializeField] private PlayerCollision playerCollision;
 
+    [SerializeField] private  float countInterval = 1f;
+    [SerializeField, Range(1,99)] private int ageCount;
+    
+    
     private int currentCount = 0;
+    
+    public Action onPlayerDie;
 
     private void Start()
     {
         StartCoroutine(CounterRoutine());
+
+        // if (AgeManager == null)
+        // {
+        //     ageCount = AgeManager.PlayerAge;
+        // }
+
     }
 
-    private System.Collections.IEnumerator CounterRoutine()
+    private void OnEnable()
+    {
+        if (!playerCollision)
+        {
+            playerCollision = FindAnyObjectByType<PlayerCollision>();
+        }
+        
+        onPlayerDie += playerCollision.OnKill;
+    }
+
+    private void OnDisable()
+    {
+        onPlayerDie -= playerCollision.OnKill;
+    }
+
+
+    private IEnumerator CounterRoutine()
     {
         while (true)
         {
@@ -21,17 +52,16 @@ public class AgeCounter : MonoBehaviour
             currentCount++;
             Debug.Log("Counter: " + currentCount);
 
-            if (currentCount >= AgeManager.PlayerAge)
+            timerTxt.text = currentCount.ToString();
+            
+            if (currentCount >= ageCount)
             {
-                Die();
+                onPlayerDie?.Invoke();
                 yield break;
             }
         }
     }
-
-    private void Die()
-    {
-        Debug.Log("Counter reached player age. Switching to EndScene_Test...");
-        SceneManager.LoadScene("EndScene_Test");
-    }
+    
+    
+    
 }

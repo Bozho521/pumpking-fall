@@ -1,6 +1,5 @@
 using UnityEngine;
 using TMPro;
-using UnityEngine.UI;
 
 public class AgeManager : MonoBehaviour
 {
@@ -22,6 +21,8 @@ public class AgeManager : MonoBehaviour
         {
             ageInputField = GetComponent<TMP_InputField>();
         }
+        
+        DontDestroyOnLoad(gameObject);
     }
 
     private void Start()
