@@ -1,12 +1,21 @@
+using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [DisallowMultipleComponent]
 public class PlayerCollision : MonoBehaviour
 {
     [SerializeField] private LayerMask deathLayers;
+    [SerializeField] private GameObject playerGraphics;
 
+    private PlayerFreeFallController playerFreeFallController;
     private bool _dead;
-    
+
+    private void Start()
+    {
+        playerFreeFallController = FindAnyObjectByType<PlayerFreeFallController>();
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         CheckAndMaybeKill(other.gameObject.layer);
@@ -31,15 +40,17 @@ public class PlayerCollision : MonoBehaviour
         
         //non death behaviour here
     }
-
     
-    //todo : call it after the 't' seconds to force kill the player
     public void OnKill()
     {
         if (_dead) return;
         
         _dead = true;
+        playerGraphics.SetActive(false);
+        playerFreeFallController.enabled = false;
 
         Debug.Log("Player killed.");
+
+        SceneManager.LoadScene(2);
     }
 }

@@ -1,11 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 public class SceneLoader : MonoBehaviour
 {
-    public void LoadScene()
+    public void LoadScene(int index)
     {
-        SceneManager.LoadScene("MainScene_Test");
+        SceneManager.LoadScene(index);
     }
 }
