@@ -393,6 +393,7 @@ GameObject:
   - component: {fileID: 205921821}
   - component: {fileID: 205921823}
   - component: {fileID: 205921822}
+  - component: {fileID: 205921824}
   m_Layer: 5
   m_Name: Text (TMP) (1)
   m_TagString: Untagged
@@ -439,7 +440,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: SOME RANDOM TEXT
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -466,10 +467,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 65.4
-  m_fontSizeBase: 36
+  m_fontSize: 58
+  m_fontSizeBase: 58
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
@@ -518,6 +519,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 205921820}
   m_CullTransparentMesh: 1
+--- !u!114 &205921824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 205921820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec1c86ef116b0c145b455e7c32a24998, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RandomTextDisplay
+  textBox: {fileID: 205921822}
+  messages:
+  - "Don\u2019t let the shadows of others decide your weight."
+  - Stay strong, though the walls keep moving.
+  - Trust can carry you through corridors that never end.
+  - Every move echoes, even when no one sees.
+  - Scars whisper of growth in places you cannot reach.
 --- !u!1 &1069890350
 GameObject:
   m_ObjectHideFlags: 0
