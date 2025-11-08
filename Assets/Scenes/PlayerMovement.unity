@@ -128,7 +128,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 19405553}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Left Side (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -171,7 +171,7 @@ GameObject:
   - component: {fileID: 94560410}
   - component: {fileID: 94560409}
   - component: {fileID: 94560408}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -282,7 +282,7 @@ GameObject:
   - component: {fileID: 96722702}
   - component: {fileID: 96722701}
   - component: {fileID: 96722700}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -393,7 +393,7 @@ GameObject:
   - component: {fileID: 99789454}
   - component: {fileID: 99789453}
   - component: {fileID: 99789452}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -504,7 +504,7 @@ GameObject:
   - component: {fileID: 102327645}
   - component: {fileID: 102327644}
   - component: {fileID: 102327643}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -615,7 +615,7 @@ GameObject:
   - component: {fileID: 163929506}
   - component: {fileID: 163929505}
   - component: {fileID: 163929504}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -726,7 +726,7 @@ GameObject:
   - component: {fileID: 227675692}
   - component: {fileID: 227675691}
   - component: {fileID: 227675690}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -837,7 +837,7 @@ GameObject:
   - component: {fileID: 282154064}
   - component: {fileID: 282154063}
   - component: {fileID: 282154062}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -948,7 +948,7 @@ GameObject:
   - component: {fileID: 320662551}
   - component: {fileID: 320662550}
   - component: {fileID: 320662549}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1059,7 +1059,7 @@ GameObject:
   - component: {fileID: 324000578}
   - component: {fileID: 324000577}
   - component: {fileID: 324000576}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1337,7 +1337,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 368657045}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Right Side (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1380,7 +1380,7 @@ GameObject:
   - component: {fileID: 408567304}
   - component: {fileID: 408567303}
   - component: {fileID: 408567302}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1618,7 +1618,7 @@ GameObject:
   - component: {fileID: 413514350}
   - component: {fileID: 413514349}
   - component: {fileID: 413514348}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1729,7 +1729,7 @@ GameObject:
   - component: {fileID: 431521713}
   - component: {fileID: 431521712}
   - component: {fileID: 431521711}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1840,7 +1840,7 @@ GameObject:
   - component: {fileID: 466002819}
   - component: {fileID: 466002818}
   - component: {fileID: 466002817}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1985,7 +1985,7 @@ GameObject:
   - component: {fileID: 528358065}
   - component: {fileID: 528358064}
   - component: {fileID: 528358063}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2096,7 +2096,7 @@ GameObject:
   - component: {fileID: 547257785}
   - component: {fileID: 547257784}
   - component: {fileID: 547257783}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2207,7 +2207,7 @@ GameObject:
   - component: {fileID: 610577704}
   - component: {fileID: 610577703}
   - component: {fileID: 610577702}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2318,7 +2318,7 @@ GameObject:
   - component: {fileID: 667609905}
   - component: {fileID: 667609904}
   - component: {fileID: 667609903}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2429,7 +2429,7 @@ GameObject:
   - component: {fileID: 732784497}
   - component: {fileID: 732784496}
   - component: {fileID: 732784495}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2540,7 +2540,7 @@ GameObject:
   - component: {fileID: 734440207}
   - component: {fileID: 734440206}
   - component: {fileID: 734440205}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2651,7 +2651,7 @@ GameObject:
   - component: {fileID: 749963559}
   - component: {fileID: 749963558}
   - component: {fileID: 749963557}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2759,7 +2759,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 753916489}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Left Side (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2802,7 +2802,7 @@ GameObject:
   - component: {fileID: 771047905}
   - component: {fileID: 771047904}
   - component: {fileID: 771047903}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2913,7 +2913,7 @@ GameObject:
   - component: {fileID: 790232791}
   - component: {fileID: 790232790}
   - component: {fileID: 790232789}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3073,7 +3073,7 @@ GameObject:
   - component: {fileID: 835604791}
   - component: {fileID: 835604790}
   - component: {fileID: 835604789}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3184,7 +3184,7 @@ GameObject:
   - component: {fileID: 844141276}
   - component: {fileID: 844141275}
   - component: {fileID: 844141274}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3295,7 +3295,7 @@ GameObject:
   - component: {fileID: 919991174}
   - component: {fileID: 919991173}
   - component: {fileID: 919991172}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3406,7 +3406,7 @@ GameObject:
   - component: {fileID: 930114131}
   - component: {fileID: 930114130}
   - component: {fileID: 930114129}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3517,7 +3517,7 @@ GameObject:
   - component: {fileID: 997253145}
   - component: {fileID: 997253144}
   - component: {fileID: 997253143}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3628,7 +3628,7 @@ GameObject:
   - component: {fileID: 1077956570}
   - component: {fileID: 1077956569}
   - component: {fileID: 1077956568}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3739,7 +3739,7 @@ GameObject:
   - component: {fileID: 1216635056}
   - component: {fileID: 1216635055}
   - component: {fileID: 1216635054}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3884,7 +3884,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1268592362}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Left Side
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3927,7 +3927,7 @@ GameObject:
   - component: {fileID: 1286294039}
   - component: {fileID: 1286294038}
   - component: {fileID: 1286294037}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4038,7 +4038,7 @@ GameObject:
   - component: {fileID: 1289770596}
   - component: {fileID: 1289770595}
   - component: {fileID: 1289770594}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4149,7 +4149,7 @@ GameObject:
   - component: {fileID: 1289843973}
   - component: {fileID: 1289843972}
   - component: {fileID: 1289843971}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4260,7 +4260,7 @@ GameObject:
   - component: {fileID: 1304126273}
   - component: {fileID: 1304126272}
   - component: {fileID: 1304126271}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4371,7 +4371,7 @@ GameObject:
   - component: {fileID: 1325349935}
   - component: {fileID: 1325349934}
   - component: {fileID: 1325349933}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4482,7 +4482,7 @@ GameObject:
   - component: {fileID: 1338915348}
   - component: {fileID: 1338915347}
   - component: {fileID: 1338915346}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4593,7 +4593,7 @@ GameObject:
   - component: {fileID: 1347112913}
   - component: {fileID: 1347112912}
   - component: {fileID: 1347112911}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4701,7 +4701,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1374261330}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Right Side (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4744,7 +4744,7 @@ GameObject:
   - component: {fileID: 1417070601}
   - component: {fileID: 1417070600}
   - component: {fileID: 1417070599}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4855,7 +4855,7 @@ GameObject:
   - component: {fileID: 1419141573}
   - component: {fileID: 1419141572}
   - component: {fileID: 1419141571}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4966,7 +4966,7 @@ GameObject:
   - component: {fileID: 1429325258}
   - component: {fileID: 1429325257}
   - component: {fileID: 1429325256}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5077,7 +5077,7 @@ GameObject:
   - component: {fileID: 1545272593}
   - component: {fileID: 1545272592}
   - component: {fileID: 1545272591}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5188,7 +5188,7 @@ GameObject:
   - component: {fileID: 1589006347}
   - component: {fileID: 1589006346}
   - component: {fileID: 1589006345}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5299,7 +5299,7 @@ GameObject:
   - component: {fileID: 1614519747}
   - component: {fileID: 1614519746}
   - component: {fileID: 1614519745}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5410,7 +5410,7 @@ GameObject:
   - component: {fileID: 1629488383}
   - component: {fileID: 1629488382}
   - component: {fileID: 1629488381}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5521,7 +5521,7 @@ GameObject:
   - component: {fileID: 1726784604}
   - component: {fileID: 1726784603}
   - component: {fileID: 1726784602}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5632,7 +5632,7 @@ GameObject:
   - component: {fileID: 1757732016}
   - component: {fileID: 1757732015}
   - component: {fileID: 1757732014}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5740,7 +5740,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1772692589}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Right Side
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5783,7 +5783,7 @@ GameObject:
   - component: {fileID: 1792406567}
   - component: {fileID: 1792406566}
   - component: {fileID: 1792406565}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5894,7 +5894,7 @@ GameObject:
   - component: {fileID: 1817426547}
   - component: {fileID: 1817426546}
   - component: {fileID: 1817426545}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6005,7 +6005,7 @@ GameObject:
   - component: {fileID: 1822548359}
   - component: {fileID: 1822548358}
   - component: {fileID: 1822548357}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6121,7 +6121,7 @@ GameObject:
   - component: {fileID: 1948855346}
   - component: {fileID: 1948855345}
   - component: {fileID: 1948855344}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6232,7 +6232,7 @@ GameObject:
   - component: {fileID: 2029580454}
   - component: {fileID: 2029580453}
   - component: {fileID: 2029580452}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6343,7 +6343,7 @@ GameObject:
   - component: {fileID: 2055553397}
   - component: {fileID: 2055553396}
   - component: {fileID: 2055553395}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6454,7 +6454,7 @@ GameObject:
   - component: {fileID: 2056190958}
   - component: {fileID: 2056190957}
   - component: {fileID: 2056190956}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6683,7 +6683,7 @@ GameObject:
   - component: {fileID: 2084134228}
   - component: {fileID: 2084134227}
   - component: {fileID: 2084134226}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6794,7 +6794,7 @@ GameObject:
   - component: {fileID: 2112946492}
   - component: {fileID: 2112946491}
   - component: {fileID: 2112946490}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Wall 1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6905,6 +6905,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerGO
       objectReference: {fileID: 0}
+    - target: {fileID: 6155286290349615826, guid: d3b431f0cad537347b9d90be577aba49, type: 3}
+      propertyPath: m_DefaultActionMap
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 7861465522454733784, guid: d3b431f0cad537347b9d90be577aba49, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -6948,8 +6952,31 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4356457161783000206, guid: d3b431f0cad537347b9d90be577aba49, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2867014316475562313}
   m_SourcePrefab: {fileID: 100100000, guid: d3b431f0cad537347b9d90be577aba49, type: 3}
+--- !u!1 &2867014316475562312 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4356457161783000206, guid: d3b431f0cad537347b9d90be577aba49, type: 3}
+  m_PrefabInstance: {fileID: 2867014316475562311}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2867014316475562313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2867014316475562312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 395acd28227d4a6428fadbcd4bcb6f4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerCollision
+  deathLayers:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
