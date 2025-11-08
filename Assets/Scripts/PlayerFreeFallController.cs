@@ -79,7 +79,6 @@ public class PlayerFreeFallController : MonoBehaviour
         }
         float currentGravity = Mathf.Lerp(startGravity, maxGravity, _gravT) + extraDownforce;
 
-        Debug.Log("Gravity : "+ currentGravity);
         
         _vel.y += currentGravity * Time.deltaTime;
 
