@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/2_GamePlay_Scene.unity
     guid: e2fa1a6c67d71a64fb671b0df637da0c
   - enabled: 1
-    path: Assets/Scenes/3_EndScene_Test.unity
+    path: Assets/Scenes/3_End_Scene.unity
     guid: cfd9cc02d7c098d4ab1794b4c7a670f8
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
