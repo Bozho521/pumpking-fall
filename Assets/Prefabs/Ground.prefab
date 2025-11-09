@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2593654663613080722}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0.5299192, y: 0, z: 0, w: 0.8480481}
   m_LocalPosition: {x: -18.69, y: -227.65, z: -1.04}
   m_LocalScale: {x: 216.6, y: 1, z: -183.8156}
   m_ConstrainProportionsScale: 0
@@ -72,7 +72,7 @@ Transform:
   - {fileID: 2114867324132553986}
   - {fileID: 2743649784078805804}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -64, y: 0, z: 0}
 --- !u!33 &2430337537183198796
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -214,6 +214,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: branch-antler (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: af943d9c6a251354dabb2f03128a0978, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -287,6 +291,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bf3389291b4d102469305e484e86b80e, type: 3}
       propertyPath: m_Name
       value: shroom1-8 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bf3389291b4d102469305e484e86b80e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -362,6 +370,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shroom1-3 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 577aac96cd8e1294a8ed702561f7ccc7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -435,6 +447,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 9b765155187280f4eba4f7ae9f212cec, type: 3}
       propertyPath: m_Name
       value: shroom1-6 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9b765155187280f4eba4f7ae9f212cec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -510,6 +526,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shroom1-6 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9b765155187280f4eba4f7ae9f212cec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -583,6 +603,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 9b765155187280f4eba4f7ae9f212cec, type: 3}
       propertyPath: m_Name
       value: shroom1-6 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9b765155187280f4eba4f7ae9f212cec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -658,6 +682,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shroom1-6 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9b765155187280f4eba4f7ae9f212cec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -731,6 +759,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 577aac96cd8e1294a8ed702561f7ccc7, type: 3}
       propertyPath: m_Name
       value: shroom1-3 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 577aac96cd8e1294a8ed702561f7ccc7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -806,6 +838,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: branch-antler (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: af943d9c6a251354dabb2f03128a0978, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -879,6 +915,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: af943d9c6a251354dabb2f03128a0978, type: 3}
       propertyPath: m_Name
       value: branch-antler (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: af943d9c6a251354dabb2f03128a0978, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -954,6 +994,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shroom1-6 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9b765155187280f4eba4f7ae9f212cec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1027,6 +1071,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 577aac96cd8e1294a8ed702561f7ccc7, type: 3}
       propertyPath: m_Name
       value: shroom1-3 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 577aac96cd8e1294a8ed702561f7ccc7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1102,6 +1150,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: branch-antler
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: af943d9c6a251354dabb2f03128a0978, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1175,6 +1227,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 577aac96cd8e1294a8ed702561f7ccc7, type: 3}
       propertyPath: m_Name
       value: shroom1-3 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 577aac96cd8e1294a8ed702561f7ccc7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1250,6 +1306,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: branch-antler (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: af943d9c6a251354dabb2f03128a0978, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1323,6 +1383,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 577aac96cd8e1294a8ed702561f7ccc7, type: 3}
       propertyPath: m_Name
       value: shroom1-3 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 577aac96cd8e1294a8ed702561f7ccc7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1398,6 +1462,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shroom1-3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 577aac96cd8e1294a8ed702561f7ccc7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1471,6 +1539,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 9b765155187280f4eba4f7ae9f212cec, type: 3}
       propertyPath: m_Name
       value: shroom1-6 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9b765155187280f4eba4f7ae9f212cec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1546,6 +1618,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shroom1-8
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bf3389291b4d102469305e484e86b80e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1619,6 +1695,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 577aac96cd8e1294a8ed702561f7ccc7, type: 3}
       propertyPath: m_Name
       value: shroom1-3 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 577aac96cd8e1294a8ed702561f7ccc7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1694,6 +1774,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shroom1-8 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bf3389291b4d102469305e484e86b80e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1767,6 +1851,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: af943d9c6a251354dabb2f03128a0978, type: 3}
       propertyPath: m_Name
       value: branch-antler (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: af943d9c6a251354dabb2f03128a0978, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1842,6 +1930,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shroom1-6 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9b765155187280f4eba4f7ae9f212cec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1915,6 +2007,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 9b765155187280f4eba4f7ae9f212cec, type: 3}
       propertyPath: m_Name
       value: shroom1-6 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9b765155187280f4eba4f7ae9f212cec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1990,6 +2086,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shroom1-3 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 577aac96cd8e1294a8ed702561f7ccc7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2063,6 +2163,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bf3389291b4d102469305e484e86b80e, type: 3}
       propertyPath: m_Name
       value: shroom1-8 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bf3389291b4d102469305e484e86b80e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2138,6 +2242,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shroom1-6 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9b765155187280f4eba4f7ae9f212cec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2211,6 +2319,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 577aac96cd8e1294a8ed702561f7ccc7, type: 3}
       propertyPath: m_Name
       value: shroom1-3 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 577aac96cd8e1294a8ed702561f7ccc7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2286,6 +2398,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shroom1-3 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 577aac96cd8e1294a8ed702561f7ccc7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2359,6 +2475,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 9b765155187280f4eba4f7ae9f212cec, type: 3}
       propertyPath: m_Name
       value: shroom1-6 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9b765155187280f4eba4f7ae9f212cec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2434,6 +2554,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shroom1-3 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 577aac96cd8e1294a8ed702561f7ccc7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2507,6 +2631,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 577aac96cd8e1294a8ed702561f7ccc7, type: 3}
       propertyPath: m_Name
       value: shroom1-3 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 577aac96cd8e1294a8ed702561f7ccc7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2582,6 +2710,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: branch-antler (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: af943d9c6a251354dabb2f03128a0978, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2655,6 +2787,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: af943d9c6a251354dabb2f03128a0978, type: 3}
       propertyPath: m_Name
       value: branch-antler (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: af943d9c6a251354dabb2f03128a0978, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2730,6 +2866,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shroom1-3 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 577aac96cd8e1294a8ed702561f7ccc7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2803,6 +2943,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 9b765155187280f4eba4f7ae9f212cec, type: 3}
       propertyPath: m_Name
       value: shroom1-6 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9b765155187280f4eba4f7ae9f212cec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2878,6 +3022,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shroom1-6
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9b765155187280f4eba4f7ae9f212cec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2952,6 +3100,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shroom1-6 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9b765155187280f4eba4f7ae9f212cec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3025,6 +3177,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 9b765155187280f4eba4f7ae9f212cec, type: 3}
       propertyPath: m_Name
       value: shroom1-6 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9b765155187280f4eba4f7ae9f212cec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

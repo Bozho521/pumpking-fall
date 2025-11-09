@@ -66,13 +66,16 @@ public class AgeCounter : MonoBehaviour
                 if (deathSpawnPrefab && PlayerLocator.Instance != null)
                 {
                     Vector3 spawnPos = PlayerLocator.Instance.CurrentPosition - spawnOffset;
-                    Instantiate(deathSpawnPrefab, spawnPos, Quaternion.identity);
-                    Debug.Log($"Spawned prefab at {spawnPos} relative to player.");
+
+                    Instantiate(deathSpawnPrefab, spawnPos, deathSpawnPrefab.transform.rotation);
+
+                    Debug.Log($"Spawned prefab at {spawnPos} relative to player with default rotation.");
                 }
                 else
                 {
                     Debug.LogWarning("Death prefab missing or PlayerLocator not found in scene!");
                 }
+
 
                 yield break;
             }

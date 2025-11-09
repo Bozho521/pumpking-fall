@@ -38,7 +38,6 @@ public class CrownMovement : MonoBehaviour
 
     private System.Collections.IEnumerator SpawnCrownWhenPlayerReady()
     {
-        // Wait until PlayerLocator exists
         while (PlayerLocator.Instance == null)
             yield return null;
 

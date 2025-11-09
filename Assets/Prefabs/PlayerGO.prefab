@@ -517,6 +517,10 @@ GameObject:
   - component: {fileID: 6155286290349615826}
   - component: {fileID: 7517933500172936225}
   - component: {fileID: 3207398803351994709}
+  - component: {fileID: 2789080716397262628}
+  - component: {fileID: 4125252998151300617}
+  - component: {fileID: 5451999430804181982}
+  - component: {fileID: 7778459627737767048}
   m_Layer: 0
   m_Name: PlayerGO
   m_TagString: Untagged
@@ -613,7 +617,7 @@ MonoBehaviour:
   horizontalSpeed: 15
   horizontalAcceleration: 30
   horizontalDeceleration: 40
-  xClamp: 30
+  xClamp: 200
   startGravity: -3
   maxGravity: -7
   timeToMaxGravity: 70
@@ -656,6 +660,73 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   playerGraphics: {fileID: 4643858724754449985}
+--- !u!114 &2789080716397262628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4356457161783000206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25372a9a45eb4ac44ab5c4951a66fc90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  defaultObject: {fileID: 8558981942993786816}
+  alternateObject: {fileID: 181497422654401398}
+  swapKey: 29
+--- !u!114 &4125252998151300617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4356457161783000206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12fdb5c336c59184c89043c5058d9ba4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AgeCounter
+  timerTxt: {fileID: 0}
+  playerCollision: {fileID: 0}
+  countInterval: 1
+  deathSpawnPrefab: {fileID: 2593654663613080722, guid: 5f096bfb9a15e9b4c8b670c0ef556862, type: 3}
+  spawnOffset: {x: 0, y: 50, z: 0}
+--- !u!114 &5451999430804181982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4356457161783000206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a5ac705a65668942aa5a2281199fe19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CrownMovement
+  crownPrefab: {fileID: 919132149155446097, guid: 64462dcad36f21c4d8dc32ca450874bc, type: 3}
+  distanceBelowPlayer: 15
+  horizontalMotion: 3
+  verticalMotion: 1
+  motionFrequency: 1.5
+  baseSmoothness: 5
+  rotationSpeed: 60
+  minFallSpeed: 1
+  maxFallSpeed: 10
+  speedSensitivity: 0.1
+  fallAcceleration: 0.2
+--- !u!114 &7778459627737767048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4356457161783000206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22e9322b6c77d124e90cfa9f71c41df6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerLocator
 --- !u!1 &4643858724754449985
 GameObject:
   m_ObjectHideFlags: 0
@@ -859,31 +930,31 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 96cd52434e96a0a4094d6d3f627e7b05, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.11379
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 96cd52434e96a0a4094d6d3f627e7b05, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.84746
+      value: -0.023535345
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 96cd52434e96a0a4094d6d3f627e7b05, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.04039
+      value: 0.093186185
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 96cd52434e96a0a4094d6d3f627e7b05, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: -0.42941797
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 96cd52434e96a0a4094d6d3f627e7b05, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: 0.9031059
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 96cd52434e96a0a4094d6d3f627e7b05, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 96cd52434e96a0a4094d6d3f627e7b05, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 96cd52434e96a0a4094d6d3f627e7b05, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -901,11 +972,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: pumpkin-openmouth
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 96cd52434e96a0a4094d6d3f627e7b05, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96cd52434e96a0a4094d6d3f627e7b05, type: 3}
+--- !u!1 &181497422654401398 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 96cd52434e96a0a4094d6d3f627e7b05, type: 3}
+  m_PrefabInstance: {fileID: 1028411847297717799}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &706817051943416268 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 96cd52434e96a0a4094d6d3f627e7b05, type: 3}
@@ -968,6 +1048,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3d863adef82e2d47874341296e381e2, type: 3}
+--- !u!1 &8558981942993786816 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3174994389707936090, guid: c3d863adef82e2d47874341296e381e2, type: 3}
+  m_PrefabInstance: {fileID: 6541553404144436890}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &9046689410289028474 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2829395535806729184, guid: c3d863adef82e2d47874341296e381e2, type: 3}
