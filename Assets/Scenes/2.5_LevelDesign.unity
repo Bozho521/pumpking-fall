@@ -1634,7 +1634,7 @@ Camera:
     height: 1
   near clip plane: 2
   far clip plane: 500
-  field of view: 59.99998
+  field of view: 59.999996
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -1661,7 +1661,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0.6264725, z: 0.7794435, w: 0}
-  m_LocalPosition: {x: -0.31686, y: 7.596002, z: -4.565366}
+  m_LocalPosition: {x: -0.31686, y: 6.6651053, z: -4.05948}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5721,12 +5721,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f873396a42e8c6141abb7aa5775fd24d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  bendAmount: 1
-  radius: -15
-  invert: 0
-  mesh: {fileID: 0}
-  originalVertices: []
-  deformedVertices: []
 --- !u!4 &1177119328 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 18b939a854e477e4cb715239999c3275, type: 3}
@@ -11025,6 +11019,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4356457161783000206, guid: d3b431f0cad537347b9d90be577aba49, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2867014316475562314}
+    - targetCorrespondingSourceObject: {fileID: 4356457161783000206, guid: d3b431f0cad537347b9d90be577aba49, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2867014316475562318}
+    - targetCorrespondingSourceObject: {fileID: 4356457161783000206, guid: d3b431f0cad537347b9d90be577aba49, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2867014316475562317}
   m_SourcePrefab: {fileID: 100100000, guid: d3b431f0cad537347b9d90be577aba49, type: 3}
 --- !u!1 &2867014316475562312 stripped
 GameObject:
@@ -11067,6 +11067,46 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8558981942993786816, guid: d3b431f0cad537347b9d90be577aba49, type: 3}
   m_PrefabInstance: {fileID: 2867014316475562311}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2867014316475562317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2867014316475562312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a5ac705a65668942aa5a2281199fe19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CrownMovement
+  crownPrefab: {fileID: 919132149155446097, guid: 64462dcad36f21c4d8dc32ca450874bc, type: 3}
+  distanceBelowPlayer: 15
+  horizontalMotion: 3
+  verticalMotion: 1
+  motionFrequency: 1.5
+  baseSmoothness: 5
+  rotationSpeed: 60
+  minFallSpeed: 1
+  maxFallSpeed: 10
+  speedSensitivity: 0.1
+  fallAcceleration: 0.2
+--- !u!114 &2867014316475562318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2867014316475562312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12fdb5c336c59184c89043c5058d9ba4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AgeCounter
+  timerTxt: {fileID: 0}
+  playerCollision: {fileID: 0}
+  countInterval: 1
+  deathSpawnPrefab: {fileID: 2593654663613080722, guid: 5f096bfb9a15e9b4c8b670c0ef556862, type: 3}
+  spawnOffset: {x: 0, y: 15, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
