@@ -771,11 +771,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f096bfb9a15e9b4c8b670c0ef556862, type: 3}
---- !u!4 &202275472 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6895997671851947638, guid: 5f096bfb9a15e9b4c8b670c0ef556862, type: 3}
-  m_PrefabInstance: {fileID: 202275471}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &227675688
 GameObject:
   m_ObjectHideFlags: 0
@@ -2439,6 +2434,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 547257781}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &582996431 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4356457161783000206, guid: d3b431f0cad537347b9d90be577aba49, type: 3}
+  m_PrefabInstance: {fileID: 2867014316475562311}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &610577700
 GameObject:
   m_ObjectHideFlags: 0
@@ -2599,8 +2599,7 @@ MonoBehaviour:
   playerCollision: {fileID: 2867014316475562313}
   countInterval: 1
   deathSpawnPrefab: {fileID: 0}
-  spawnPoint: {fileID: 0}
-  deathDelay: 2
+  spawnOffset: {x: 0, y: 1, z: 0}
 --- !u!1 &667609901
 GameObject:
   m_ObjectHideFlags: 0
@@ -4013,6 +4012,16 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 997253141}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1023585432 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2593654663613080722, guid: 5f096bfb9a15e9b4c8b670c0ef556862, type: 3}
+  m_PrefabInstance: {fileID: 202275471}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1023585433 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6634247785095516419, guid: 5f096bfb9a15e9b4c8b670c0ef556862, type: 3}
+  m_PrefabInstance: {fileID: 202275471}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1077956566
 GameObject:
   m_ObjectHideFlags: 0
@@ -4518,7 +4527,7 @@ Transform:
   - {fileID: 1268592362}
   - {fileID: 753916489}
   - {fileID: 19405553}
-  - {fileID: 202275472}
+  - {fileID: 1023585433}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1268592361
@@ -6898,9 +6907,8 @@ MonoBehaviour:
   timerTxt: {fileID: 0}
   playerCollision: {fileID: 0}
   countInterval: 1
-  deathSpawnPrefab: {fileID: 0}
-  spawnPoint: {fileID: 0}
-  deathDelay: 2
+  deathSpawnPrefab: {fileID: 1023585432}
+  spawnOffset: {x: 0, y: 15, z: 0}
 --- !u!4 &1976634608
 Transform:
   m_ObjectHideFlags: 0
@@ -7662,19 +7670,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4356457161783000206, guid: d3b431f0cad537347b9d90be577aba49, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2867014316475562317}
   m_SourcePrefab: {fileID: 100100000, guid: d3b431f0cad537347b9d90be577aba49, type: 3}
 --- !u!114 &2867014316475562313 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3207398803351994709, guid: d3b431f0cad537347b9d90be577aba49, type: 3}
   m_PrefabInstance: {fileID: 2867014316475562311}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 582996431}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 395acd28227d4a6428fadbcd4bcb6f4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCollision
+--- !u!114 &2867014316475562317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 582996431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22e9322b6c77d124e90cfa9f71c41df6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerLocator
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
