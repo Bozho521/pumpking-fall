@@ -518,7 +518,6 @@ GameObject:
   - component: {fileID: 7517933500172936225}
   - component: {fileID: 3207398803351994709}
   - component: {fileID: 2789080716397262628}
-  - component: {fileID: 4125252998151300617}
   - component: {fileID: 5451999430804181982}
   - component: {fileID: 7778459627737767048}
   m_Layer: 0
@@ -675,23 +674,10 @@ MonoBehaviour:
   defaultObject: {fileID: 8558981942993786816}
   alternateObject: {fileID: 181497422654401398}
   swapKey: 29
---- !u!114 &4125252998151300617
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4356457161783000206}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 12fdb5c336c59184c89043c5058d9ba4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::AgeCounter
-  timerTxt: {fileID: 0}
-  playerCollision: {fileID: 0}
-  countInterval: 1
-  deathSpawnPrefab: {fileID: 2593654663613080722, guid: 5f096bfb9a15e9b4c8b670c0ef556862, type: 3}
-  spawnOffset: {x: 0, y: 50, z: 0}
+  maxBoost: 5
+  drainRate: 1
+  rechargeRate: 0.5
+  boostBar: {fileID: 0}
 --- !u!114 &5451999430804181982
 MonoBehaviour:
   m_ObjectHideFlags: 0

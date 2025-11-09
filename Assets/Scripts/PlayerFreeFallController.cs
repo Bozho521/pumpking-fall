@@ -19,6 +19,7 @@ public class PlayerFreeFallController : MonoBehaviour
     public float maxGravity = -80f;
     public float timeToMaxGravity = 6f;
     public float extraDownforce = 0f;
+    [HideInInspector] public float externalSpeedMultiplier;
 
     [Header("Z Lock")]
     public bool lockZ = true;
@@ -115,7 +116,7 @@ public class PlayerFreeFallController : MonoBehaviour
 
         if (timeToMaxGravity > 0f) _gravT = Mathf.Clamp01(_gravT + Time.deltaTime / timeToMaxGravity);
         float currentGravity = Mathf.Lerp(startGravity, maxGravity, _gravT) + extraDownforce;
-        _vel.y += currentGravity * Time.deltaTime;
+        _vel.y += currentGravity * externalSpeedMultiplier * Time.deltaTime;
         _vel.z = 0f;
 
         Vector3 delta = _vel * Time.deltaTime;
