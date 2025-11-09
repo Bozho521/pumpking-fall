@@ -1,2 +1,15 @@
 fileFormatVersion: 2
 guid: 12fdb5c336c59184c89043c5058d9ba4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - timerTxt: {instanceID: 0}
+  - playerCollision: {instanceID: 0}
+  - deathSpawnPrefab: {fileID: 6133713842056711180, guid: 5f096bfb9a15e9b4c8b670c0ef556862, type: 3}
+  - spawnPoint: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

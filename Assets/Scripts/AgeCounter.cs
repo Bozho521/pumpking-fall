@@ -12,6 +12,8 @@ public class AgeCounter : MonoBehaviour
 
     [Header("Counter Settings")]
     [SerializeField] private float countInterval = 1f;
+    [SerializeField] private GameObject deathSpawnPrefab;
+    [SerializeField] private Vector3 spawnOffset = new Vector3(0, 1, 0);
 
     private int currentCount = 0;
     private int targetAge;
@@ -20,27 +22,18 @@ public class AgeCounter : MonoBehaviour
 
     private void Start()
     {
-        targetAge = AgeManager.PlayerAge;
-
-        if (targetAge <= 0)
-        {
-            Debug.LogWarning("No valid player age found in AgeManager. Defaulting to 10.");
-            targetAge = 10;
-        }
+        targetAge = AgeManager.PlayerAge > 0 ? AgeManager.PlayerAge : 99;
 
         if (timerTxt != null)
-        {
             timerTxt.text = "";
-        }
+
         StartCoroutine(CounterRoutine());
     }
 
     private void OnEnable()
     {
         if (!playerCollision)
-        {
             playerCollision = FindAnyObjectByType<PlayerCollision>();
-        }
 
         if (playerCollision)
             onPlayerDie += playerCollision.OnKill;
@@ -59,24 +52,30 @@ public class AgeCounter : MonoBehaviour
             yield return new WaitForSeconds(countInterval);
 
             currentCount++;
-            Debug.Log("Counter: " + currentCount);
+            Debug.Log($"Counter: {currentCount}");
 
             if (timerTxt)
                 timerTxt.text = currentCount.ToString();
 
             if (currentCount >= targetAge)
             {
-                Debug.Log("Counter reached player age. Death and scene switch.");
-                onPlayerDie?.Invoke();
-                Die();
+                Debug.Log("Counter reached player age. Death sequence triggered.");
+
+                Debug.Log($"Player current position: {PlayerLocator.Instance.CurrentPosition}");
+
+                if (deathSpawnPrefab && PlayerLocator.Instance != null)
+                {
+                    Vector3 spawnPos = PlayerLocator.Instance.CurrentPosition - spawnOffset;
+                    Instantiate(deathSpawnPrefab, spawnPos, Quaternion.identity);
+                    Debug.Log($"Spawned prefab at {spawnPos} relative to player.");
+                }
+                else
+                {
+                    Debug.LogWarning("Death prefab missing or PlayerLocator not found in scene!");
+                }
+
                 yield break;
             }
         }
-    }
-
-    private void Die()
-    {
-        // some delay or animation of death?
-        SceneManager.LoadScene("3_EndScene_Test");
     }
 }
